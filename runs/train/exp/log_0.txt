@@ -1,0 +1,45 @@
+contribution_alg is not set, assessor is None
+client_indexes = [0]
+running
+communication backend is alive (loop_forever, sender 0 to receiver 0)
+Cannot handle connection ready.
+receive_message. msg_type = 3, sender_id = 1, receiver_id = 0
+add_model. index = 0
+b_all_received = True
+len of self.model_dict[idx] = 1
+set_model_params
+aggregate time cost: 0
+round_idx: 0
+client_indexes = [0]
+indexes of clients: [0]
+
+
+size = 2
+
+
+send_message_sync_model_to_client. receive_id = 1
+receive_message. msg_type = 3, sender_id = 1, receiver_id = 0
+add_model. index = 0
+b_all_received = True
+len of self.model_dict[idx] = 1
+set_model_params
+aggregate time cost: 0
+round_idx: 1
+client_indexes = [0]
+indexes of clients: [0]
+
+
+size = 2
+
+
+send_message_sync_model_to_client. receive_id = 1
+receive_message. msg_type = 3, sender_id = 1, receiver_id = 0
+add_model. index = 0
+b_all_received = True
+len of self.model_dict[idx] = 1
+set_model_params
+aggregate time cost: 0
+round_idx: 2
+__finish
+Handle receive message stopped!
+finished...

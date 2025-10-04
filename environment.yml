@@ -1,0 +1,36 @@
+name: fedml-benchmarks
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - pillow
+  - scipy
+  - tqdm
+  - scikit-learn
+  - openmpi         # MPI runtime (mpirun)
+  - mpi4py          # MPI bindings for Python
+  - git
+  - unzip
+  - curl
+  - gcc_linux-64    # occasionally needed for some pip builds (conda-forge)
+  - pip:
+    - fedml         # FedML framework (pip install fedml)
+    - torch        # CPU torch; change for GPU as noted below
+    - torchvision
+    - torchaudio
+    - ultralytics  # newer YOLO integrations (optional but recommended)
+    - opencv-python-headless
+    - thop
+    - pycocotools
+    - albumentations
+    - addict
+    - tensorboard
+    - wandb

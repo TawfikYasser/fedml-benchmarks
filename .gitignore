@@ -1,0 +1,6 @@
+model/
+runs/train/exp/weights/
+*.pt
+*.json
+*.csv
+*.lock
